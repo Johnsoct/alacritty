@@ -1,0 +1,22 @@
+import = [ 
+    "~/.config/alacritty/theme.toml", 
+    "~/.config/alacritty/font.toml", 
+    "~/.config/alacritty/font-size.toml", 
+    # "~/.local/share/omakub/defaults/alacritty.toml",
+]
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+offset = { y = 4 }
+
+[shell]
+program = "zellij"
+
+[window]
+    blur = true
+    decorations = "None"
+    dynamic_padding = true
+    opacity = 0.8
+    padding = { x = 20, y = 20 }
