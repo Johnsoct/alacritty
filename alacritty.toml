@@ -18,5 +18,5 @@ program = "zellij"
     blur = true
     decorations = "None"
     dynamic_padding = true
-    opacity = 0.8
+    opacity = 1
     padding = { x = 20, y = 20 }

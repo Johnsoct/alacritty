@@ -1,1 +1,1 @@
-import = ["~/.config/alacritty/cyberdream.toml"]
+import = ["~/.config/alacritty/tokyonight_storm.toml"]
