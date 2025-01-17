@@ -1,3 +1,4 @@
+[general]
 import = [ 
     "~/.config/alacritty/theme.toml", 
     "~/.config/alacritty/font.toml", 
@@ -11,8 +12,8 @@ TERM = "xterm-256color"
 [font]
 offset = { y = 4 }
 
-[shell]
-program = "zellij"
+[terminal]
+shell = "/opt/homebrew/bin/zellij"
 
 [window]
     blur = true
@@ -20,3 +21,4 @@ program = "zellij"
     dynamic_padding = true
     opacity = 1
     padding = { x = 20, y = 20 }
+    option_as_alt = "Both"
